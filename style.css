@@ -284,11 +284,12 @@ a:hover {
     max-width: 570px;
     margin: auto;
     filter: blur(0.5px);
-    line-height: normal;  
+    line-height: normal; 
+    color: rgb(38, 34, 34); 
 }
 
 .PDG{
-    color: grey;
+    color: rgb(91, 90, 90);
 }
 
 
@@ -524,6 +525,10 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+/* 
+.form-group{
+    margin: auto;
+} */
 
 .scrollToTop {
     width: 40px;
@@ -654,7 +659,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -667,7 +672,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
-} */
+}
 
 .container {
     max-width: 1000px;
@@ -738,11 +743,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -756,6 +761,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -768,7 +774,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,21 +792,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #b53c03;
+    background-color: #f7c3aa;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f7c3aa;
 }
 
 .btn-atomic-tangerine {
-    background: #b53c03;
-    color: #FFFFFF!important;
+    background: #f7c3aa;
+    color: #763838!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #ee8e61;
+    border: 3px solid #763838;
+    /* color: #FFFFFF!important; */
 }
 
 .ltc-white {
@@ -846,7 +853,30 @@ h4 {
 }
 
 .elements_footer{
+    color: #763838;
+}
+.text_footer_debut{
+    margin: 20px 0 5px 0;
+}
+.text_white{
     color: white;
+    font-weight: bold;
+}
+
+.texte_formulaire{
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(38, 34, 34);
+}
+
+.partie_formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire{
+    margin: auto;
+    border: 1px solid black;
 }
 
 @media (max-width: 1024px) {
@@ -905,6 +935,10 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .text_max_width{
+        max-width: 500px;
+        margin: auto;
     }
 }
 
