@@ -531,6 +531,8 @@ button {
 } */
 
 .scrollToTop {
+    border: 1px solid #000000;
+    background-color: white;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -862,7 +864,7 @@ h4 {
     color: white;
     font-weight: bold;
 }
-
+/* Modification seo et accéssibilité */
 .texte_formulaire{
     margin-right: auto;
     margin-left: auto;
@@ -876,8 +878,50 @@ h4 {
 
 .formulaire{
     margin: auto;
-    border: 1px solid black;
 }
+
+.text_hover:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.logo_hover:hover{
+    font-weight: bold;
+    color: white;
+}
+.scrollToTop:focus{
+    /* border: 1px dotted black; */
+    background-color: #000000;
+}
+
+/* .contact_focus:focus-visible{
+    border: 5px solid white;
+} */
+
+.header_focus:focus-visible{
+    border: 2px solid black;
+}
+
+
+/* .logo_hover:focus{
+    border: none;
+    font-weight: bold;
+    color: white;
+} */
+/* .text_focus_black:focus-visible{
+    outline: 2px dotted black;
+}
+
+.text_focus_white:focus{
+    outline: 2px dotted white;
+}
+.text_footer:focus{
+    outline: 2px dotted black;
+    width: 50%;
+    margin: auto;
+} */
+
+    /* Fin des modification seo et accéssibilité */
 
 @media (max-width: 1024px) {
     .bloc {
