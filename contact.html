@@ -72,27 +72,27 @@
 					<div class="col-sm-6">
 						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label tabindex="0" class="text_focus_black">
+								<label tabindex="0" class="text_focus_black" for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" required aria-labelledby="name" aria-required="true"/>
 							</div>
 							<div class="form-group">
-								<label tabindex="0" class="text_focus_black">
+								<label tabindex="0" class="text_focus_black" for="email">
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control"  type="email" required aria-labelledby="email" aria-required="true"/>
 							</div>
 							<div class="form-group">
-								<label tabindex="0" class="text_focus_black">
+								<label tabindex="0" class="text_focus_black" for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input class="form-control" type="email" required id="input_504"  aria-labelledby="input_504" aria-required="true" />
 							</div>
-							<div class="form-group">
-								<label tabindex="0" class="text_focus_black">
+							<div class="form-group"> 
+								<label tabindex="0" class="text_focus_black" for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+								</label><textarea id="message" class="form-control" rows="4" cols="50" required aria-labelledby="message" aria-required="true"></textarea>
 							</div> 
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								Envoyer
