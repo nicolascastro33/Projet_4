@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    /* width: 100%; */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -318,7 +318,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    /* max-height: 200px; */
     margin: 0 5px 0 0;
     display: inline;
 }
